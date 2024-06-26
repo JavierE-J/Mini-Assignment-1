@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>E-Sandwich</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <h1>Sandwich maker</h1>
+    <form>
+        <label for="SandwichName">Sandwich Name:</label>
+        <input type="text" id="SandwichName" name="SandwichName" required>
+        
+        <div>
+            <p>Choose a bread:</p>
+            <label for="White">White</label>
+            <input type="radio" id="White" name="Bread" value="White">
+            <br>
+            <label for="Whole Wheat">Whole Wheat</label>
+            <input type="radio" id="Whole Wheat" name="Bread" value="Whole Wheat">
+            <br>
+            <label for="Rye">Rye</label>
+            <input type="radio" id="Rye" name="Bread" value="Rye">
+            <Br>
+            <label for="Gluten Free">Gluten Free</label>
+            <input type="radio" id="Gluten Free" name="Bread" value="Gluten Free">
+        </div>
+
+        <div>
+            <label for="Protein">Choose Protein:</label>
+            <select id="Protein">
+                <option value="Turkey">Turkey</option>
+                <option value="Ham">Ham</option>
+                <option value="Chicken">Chicken</option>
+                <option value="Pork">Pork</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Choose your toppings:</p>
+            <label for="lettuce">Lettuce</label>
+            <input type="checkbox" id="Lettuce" name="Lettuce" value="Lettuce"><br>
+            <label for="Tomato">Tomato</label>
+            <input type="checkbox" id="Tomato" name="Tomato" value="Tomato"><br>
+            <label for="onions">Onions</label>
+            <input type="checkbox" id="Onions" name="Onions" value="Onions"><br>
+            <label for="Pickles">Pickles</label>
+            <input type="checkbox" id="Pickles" name="Pickles" value="Pickles"><br>
+            <label for="Black Olives">Black Olives</label>
+            <input type="checkbox" id="Black Olives" name="Black Olives" value="Black Olives"><br>
+            <label for="Ketchup">Ketchup</label>
+            <input type="checkbox" id="Ketchup" name="Ketchup" value="Ketchup"><br>
+            <label for="Mustard">Mustard</label>
+            <input type="checkbox" id="Mustard" name="Mustard" value="Mustard"><br>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
